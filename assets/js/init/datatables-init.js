@@ -14,7 +14,7 @@
         dataSrc: 'searchresult'
       },
       columns: [
-        { data: 'companyName' },
+        { data: 'companyName2' },
         { data: 'current' },
         { data: 'dividendType' },
         { data: 'value' },

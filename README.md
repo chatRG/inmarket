@@ -1,3 +1,3 @@
 # inMarket
 
-https://chatrg.github.io/inmarket
+https://chatrg.github.io/inmarket/index.html
