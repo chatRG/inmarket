@@ -8,6 +8,8 @@
 
     var url = 'https://etmarketsapis.indiatimes.com/ET_Stats/dividend?pagesize=500&pageno=1&sortby=xdDateStr&sortorder=asc&companyid=0&year=0&filtertype=latest&marketcap=All&duration=U';
 
+    $.fn.dataTable.moment( 'DD-MM-YYYY' );
+
     $('#bootstrap-data-table').DataTable({
       ajax: {
         url: url,
@@ -21,7 +23,7 @@
         { data: 'announcementDateStr' },
         { data: 'xdDateStr' }
       ],
-      order: [[ 5, "desc" ]],
+      order: [[ 5, "asc" ]],
       pageLength: 25,
       responsive: true,
       fixedHeader: true

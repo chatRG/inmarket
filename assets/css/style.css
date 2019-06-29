@@ -597,7 +597,7 @@ aside.left-panel {
     color: #41434d;
     clear: both;
     display: block;
-    font-family: 'Open Sans';
+    font-family: "Poppins",sans-serif;
     font-size: 14px;
     font-weight: 700;
     line-height: 50px;
@@ -711,7 +711,7 @@ aside.left-panel {
   background: #a9d86e;
   border-radius: 50%;
   color: #fff;
-  font-family: 'Open Sans';
+  font-family: "Poppins",sans-serif;
   font-size: 9px;
   font-weight: 700;
   float: right;
@@ -823,7 +823,7 @@ aside.left-panel {
 /* Right panel */
 .right-panel {
   background: #f1f2f7;
-  margin-left: 280px;
+  margin-left: 0 !important;
   margin-top: 55px; }
   .right-panel .top-left {
     width: 350px;
@@ -1133,7 +1133,7 @@ header .form-inline {
     background: #d9534f;
     border-radius: 50%;
     color: #fff;
-    font-family: 'Open Sans';
+    font-family: "Poppins",sans-serif;
     font-size: 9px;
     font-weight: 700;
     float: right;
@@ -1268,7 +1268,7 @@ header .form-inline {
     margin-right: -20px;
     border-top: 1px solid #ededed;
     background: #fff;
-    font-family: "Open Sans", sans-serif; }
+    font-family: "Poppins",sans-serif; }
     .card.weather-box .nextdays .days {
       display: inline-block;
       width: 20%;
@@ -1439,12 +1439,12 @@ header .form-inline {
       border: none !important; }
   #flotPie1 .legendLabel {
     color: #868e96;
-    font-family: 'Open Sans';
+    font-family: "Poppins",sans-serif;;
     font-size: 12px; }
 
 /* Stats Table */
 .table-stats table {
-  font-family: 'Open Sans'; }
+  font-family: "Poppins",sans-serif; }
   .table-stats table th,
   .table-stats table td {
     border: none;
@@ -1472,7 +1472,7 @@ header .form-inline {
 
 /* Timeline */
 .timeline li {
-  font-family: 'Open Sans';
+  font-family: "Poppins",sans-serif;
   list-style: none;
   padding: 5px 0;
   position: relative; }
@@ -2095,7 +2095,7 @@ footer.site-footer {
   padding: 0 1.875em; }
   footer.site-footer .footer-inner {
     color: #78909c;
-    font-family: 'Open Sans';
+    font-family: "Poppins",sans-serif;
     font-size: 14px;
     line-height: 1.5;
     padding: 2.45em 1.125em; }
