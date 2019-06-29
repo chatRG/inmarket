@@ -20,12 +20,14 @@
         { data: 'value' },
         { data: 'announcementDateStr' },
         { data: 'xdDateStr' }
-      ]
-
-        //lengthMenu: [[10, 20, 50, -1], [10, 20, 50, "All"]],
+      ],
+      order: [[ 5, "desc" ]],
+      pageLength: 25,
+      responsive: true,
+      fixedHeader: true
     });
 
-
+    $.fn.dataTable.ext.errMode = 'none';
 
     $('#bootstrap-data-table-export').DataTable({
         dom: 'lBfrtip',
