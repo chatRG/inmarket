@@ -6,7 +6,7 @@
     -------------*/
 
 
-    var url = 'https://etmarketsapis.indiatimes.com/ET_Stats/dividend?pagesize=10&pageno=1&sortby=xdDateStr&sortorder=asc&companyid=0&year=0&filtertype=latest&marketcap=All&duration=U';
+    var url = 'https://etmarketsapis.indiatimes.com/ET_Stats/dividend?pagesize=500&pageno=1&sortby=xdDateStr&sortorder=asc&companyid=0&year=0&filtertype=latest&marketcap=All&duration=U';
 
     $('#bootstrap-data-table').DataTable({
       ajax: {
