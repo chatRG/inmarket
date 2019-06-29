@@ -6,7 +6,9 @@
     -------------*/
 
 
-    var url = 'https://etmarketsapis.indiatimes.com/ET_Stats/dividend?pagesize=10&pageno=1&sortby=xdDateStr&sortorder=asc&companyid=0&year=0&filtertype=latest&marketcap=All&duration=U';
+    var url = 'https://etmarketsapis.indiatimes.com/ET_Stats/dividend?pagesize=500&pageno=1&sortby=xdDateStr&sortorder=asc&companyid=0&year=0&filtertype=latest&marketcap=All&duration=U';
+
+    $.fn.dataTable.moment( 'DD-MM-YYYY' );
 
     $('#bootstrap-data-table').DataTable({
       ajax: {
@@ -14,18 +16,20 @@
         dataSrc: 'searchresult'
       },
       columns: [
-        { data: 'companyName' },
+        { data: 'companyName2' },
         { data: 'current' },
         { data: 'dividendType' },
         { data: 'value' },
         { data: 'announcementDateStr' },
         { data: 'xdDateStr' }
-      ]
-
-        //lengthMenu: [[10, 20, 50, -1], [10, 20, 50, "All"]],
+      ],
+      order: [[ 5, "asc" ]],
+      pageLength: 25,
+      responsive: true,
+      fixedHeader: true
     });
 
-
+    $.fn.dataTable.ext.errMode = 'none';
 
     $('#bootstrap-data-table-export').DataTable({
         dom: 'lBfrtip',
