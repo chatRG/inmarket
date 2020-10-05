@@ -1,6 +1,6 @@
 # inMarket beta
 
-<a href="https://chatrg.github.io/inmarket"><img width="240px" src="https://raw.githubusercontent.com/chatRG/inmarket/gh-pages/images/logo.png" /></a>
+<a href="https://chatrg.github.io/inmarket"><img width="240px" src="https://raw.githubusercontent.com/chatRG/inmarket/gh-pages/images/logo.png" /><br/>Let's go</a>
 
 ## Support
 For all of this free stuff, a cup of hot cocoa won't bite. Thanks!
