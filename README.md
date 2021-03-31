@@ -3,16 +3,15 @@
 <a href="https://chatrg.github.io/inmarket"><img width="240px" src="https://raw.githubusercontent.com/chatRG/inmarket/gh-pages/images/logo.png" /><br/>Let's go</a>
 
 ## Support
-For all of this free stuff, a cup of hot cocoa won't bite. Thanks!
 
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/chatrg/5usd)
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/chatrg/10usd)
 
 
 License
 -------
 
     inMarket - inside the market
-    Copyright (C) 2019 chatRG
+    Copyright (C) 2021 chatRG
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
