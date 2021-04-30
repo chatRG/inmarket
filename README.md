@@ -1,10 +1,6 @@
-# inMarket beta
+# inMarket [beta]
 
-<a href="https://chatrg.github.io/inmarket"><img width="240px" src="https://raw.githubusercontent.com/chatRG/inmarket/gh-pages/images/logo.png" /><br/>Let's go</a>
-
-## Support
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/chatrg/10usd)
+<a href="https://chatrg.github.io/inmarket"><img width="120px" src="https://raw.githubusercontent.com/chatRG/inmarket/gh-pages/images/logo.png" /><br/>Let's go</a>
 
 
 License
